@@ -2,7 +2,7 @@
 Profile Card Created Using CSS Flexbox.
 
 ## Preview
-https://codepen.io/riabhsh/pen/GRLJqrx
+https://codepen.io/riabhsh/full/GRLJqrx
 
 ## Demo
 ### Mobile:
