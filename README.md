@@ -1,4 +1,4 @@
-# 😎 Profile Card (CSS Flexbox Only)
+# Profile Card (CSS Flexbox Only)
 Profile Card Created Using CSS Flexbox.
 
 ## Preview
