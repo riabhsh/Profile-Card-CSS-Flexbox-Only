@@ -1,5 +1,5 @@
 # Profile Card (CSS Flexbox Only)
-Profile Card Created Using Flexbox.
+Profile Card Created Using CSS Flexbox.
 
 ## Preview
 https://codepen.io/riabhsh/pen/GRLJqrx
