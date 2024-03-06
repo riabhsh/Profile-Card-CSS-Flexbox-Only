@@ -1,0 +1,287 @@
+/* Om Namah Shivay */
+/* https://www.github.com/riabhsh/ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  :root {
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+   
+    max-width: 150rem;
+    height: 100vh;
+
+    background: rgb(84,1,173);
+background: -moz-radial-gradient(circle, rgba(84,1,173,1) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(84,1,173,1) 0%, rgba(0,0,0,1) 100%);
+background: radial-gradient(circle, rgba(84,1,173,1) 0%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5401ad",endColorstr="#000000",GradientType=1);
+
+  }
+
+/* Wrapper Section */
+
+*::selection{
+  background-color: #ff6060;
+}
+.wrapper{
+  /* background-color: #E6E6FA; */
+  /* background-color: black; */
+  /* height: 30rem; */
+
+  background: rgb(84,1,173);
+background: -moz-radial-gradient(circle, rgba(84,1,173,1) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(84,1,173,1) 0%, rgba(0,0,0,1) 100%);
+background: radial-gradient(circle, rgba(84,1,173,1) 0%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5401ad",endColorstr="#000000",GradientType=1);
+
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profiles{
+  /* background-color: rgb(0, 0, 0); */
+  width: 70rem;
+  height: 30rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  min-width: 65.7rem;
+  min-height: 30.8rem;
+  
+}
+
+.profile{
+  /* background-color: bisque; */
+  width: 90%;
+  height: 90%;
+  
+  display: flex;
+}
+
+/* profile - container1 */
+.container1{
+  /* background-color: #dda0dd; */
+
+  background: rgb(221,160,221);
+background: -moz-radial-gradient(circle, rgba(221,160,221,1) 0%, rgba(228,145,255,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(221,160,221,1) 0%, rgba(228,145,255,1) 100%);
+background: radial-gradient(circle, rgba(221,160,221,1) 0%, rgba(228,145,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dda0dd",endColorstr="#e491ff",GradientType=1);
+
+  flex: 7;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem 4rem;
+}
+
+.info{
+  font-size: 1.5rem;
+  color: #452c63;
+  font-weight: 800;
+  line-height: 1.4;
+  position: relative;
+}
+
+.info::before{
+  content: '"';
+  font-size: 3rem;
+  position: absolute;
+  top: -12px;
+  left: -15px;
+  font-family: fantasy;
+}
+
+.read-more, .read-more:link, .read-more:active{
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #452c63;
+  letter-spacing: -0.05rem;
+  font-weight: 800;
+}
+
+.read-more:hover, .read-more:active{
+  color: #312342;
+  text-shadow: 0px 0.2px black;
+  transition: 0.2s ease-in-out;
+}
+
+
+/* profile - container2 */
+.container2{
+  /* background-color: #452c63; */
+
+  background: rgb(84,1,173);
+  background: -moz-radial-gradient(circle, rgba(84,1,173,1) 0%, rgba(53,3,65,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(84,1,173,1) 0%, rgba(53,3,65,1) 100%);
+  background: radial-gradient(circle, rgba(84,1,173,1) 0%, rgba(53,3,65,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5401ad",endColorstr="#350341",GradientType=1);
+
+
+  flex: 3 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+
+}
+
+.img-container{
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.img{
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  scale: 3;
+  object-position: -0.2rem -2.5rem;
+}
+
+.img:hover{
+  rotate: -10deg;
+  scale: 2;
+  transition: 0.6s ease-in;
+}
+
+.name{
+  text-align: center;
+  line-height: 1;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+}
+
+.speciality{
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    /* background-color: rgb(255, 98, 98); */
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  .profiles{
+    /* background-color: rgb(255, 0, 0); */
+    width: 70rem;
+    height: 30rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+    min-width: 32rem;
+    min-height: 32rem;
+    
+  }
+
+  .info{
+    font-size: 1.2rem;
+    color: #452c63;
+    font-weight: 800;
+    line-height: 1.4;
+    position: relative;
+  }
+  
+  .info::before{
+    content: '"';
+    font-size: 3rem;
+    position: absolute;
+    top: -12px;
+    left: -15px;
+    font-family: fantasy;
+  }
+  
+  .read-more, .read-more:link, .read-more:active{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #452c63;
+    letter-spacing: -0.05rem;
+    font-weight: 800;
+  }
+  
+  .read-more:hover, .read-more:active{
+    color: #312342;
+    text-shadow: 0px 0.2px black;
+    transition: 0.2s ease-in-out;
+  }
+
+
+
+  .img-container{
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .img{
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    scale: 3;
+    object-position: -0.2rem -2rem;
+  }
+  
+  .img:hover{
+    rotate: -10deg;
+    scale: 2;
+    transition: 0.6s ease-in;
+  }
+  
+  .name{
+    text-align: center;
+    line-height: 1;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+  }
+  
+  .speciality{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    font-weight: 400;
+  }
+  
+  .profiles{
+    min-width: 37.5rem;
+    
+  }
+
+  .profile{
+    flex-direction: column;
+  }
+  .container1{
+    flex: 6;
+    order: 1;
+    gap: 2rem;
+  }
+
+  .container2{
+    flex: 4;
+    padding: 2rem;
+  }
+} 
+
